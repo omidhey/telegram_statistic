@@ -37,7 +37,8 @@ class ChatStatistics:
     def generate_word_cloud(
             self, output_dir: Union[str, Path],
             width: int = 800, height: int = 600,
-            max_font_size: int = 250
+            max_font_size: int = 250,
+            background_color: str ='white',
             ):
 
         """Generates a word cloud from the chat date
